@@ -9,7 +9,7 @@ input_index = None
 output_index = None
 class_names = ["Early Blight", "Late Blight", "Healthy"]
 
-BUCKET_NAME = "codebasics-tf-models" # Here you need to put the name of your GCP bucket
+BUCKET_NAME = "code-tf-models" # Here you need to put the name of your GCP bucket
 
 
 def download_blob(bucket_name, source_blob_name, destination_file_name):
